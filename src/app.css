@@ -1,0 +1,48 @@
+html, body {
+    color: #535459;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+td, th {
+    padding: 15px 10px !important;
+}
+
+main {
+    overflow: auto;
+}
+
+.btn-small {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0.5rem;
+    font-size: 11px;
+}
+
+.my-footer {
+    color: #fff;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.align-detail {
+    text-align: center;
+}
+
+.custom-card-title {
+    color: #26a69a;
+    font-weight: bold !important;
+}
+
+.custom-card-subtitle {
+    font-size: 36px;
+    font-weight: bold;    
+}
+
+.loading {
+    margin-top: 20px;
+}
