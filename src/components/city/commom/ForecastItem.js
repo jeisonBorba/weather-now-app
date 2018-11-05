@@ -1,9 +1,9 @@
 import React from 'react';
 
 const ForecastItem = props => {
-    const { label, value, simbol } = props;
+    const { label, value, simbol, col } = props;
     return (
-        <div className="col s2">
+        <div className={`col ${col}`}>
             <b>{label}</b>
             <br />
             <span>{`${Math.round(value)}${simbol}`}</span>
